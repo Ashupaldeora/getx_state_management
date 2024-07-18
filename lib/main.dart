@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_state_management/counter/counter.dart';
+import 'package:getx_state_management/theme/theme_controller.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,9 +12,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: CounterPage(),
+    final themeController = Get.put(ThemeController());
+    return Obx(
+      () => GetMaterialApp(
+        theme:
+            themeController.isDark.value ? ThemeData.dark() : ThemeData.light(),
+        debugShowCheckedModeBanner: false,
+        home: CounterPage(),
+      ),
     );
   }
 }
