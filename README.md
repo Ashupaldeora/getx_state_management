@@ -26,6 +26,15 @@ This Flutter application demonstrates a sign-up form with email and password val
  <video src="https://github.com/user-attachments/assets/1541d8fe-ef9a-4b8d-81b9-5043fe993be3">
 </div>
 
+<div align="center">
+   <img src="https://github.com/user-attachments/assets/98b58ecf-f542-459f-a05c-7c4f86790ad5" height="500px" hspace=20></img>
+  <img src="https://github.com/user-attachments/assets/a29d1809-e042-4151-a972-9ca9e91da61d" height="500px" hspace=20></img>
+ <video src="https://github.com/user-attachments/assets/1556ae95-9a4d-46bb-8e9c-ef39a034a7c4">
+</div>
+
+
+
+
 
 
 
