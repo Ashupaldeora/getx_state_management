@@ -5,6 +5,8 @@ import 'package:getx_state_management/theme/theme_controller.dart';
 import 'package:getx_state_management/todo/view/home.dart';
 import 'package:intl/date_symbol_data_local.dart';
 
+import 'form/signup.dart';
+
 void main() {
   initializeDateFormatting().then((_) => runApp(MyApp()));
 }
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
         theme:
             themeController.isDark.value ? ThemeData.dark() : ThemeData.light(),
         debugShowCheckedModeBanner: false,
-        home: TodoHomeScreen(),
+        home: SignUpPage(),
       ),
     );
   }
