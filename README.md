@@ -10,7 +10,6 @@ A task management app built with Flutter and GetX state management. This app fea
 - Read/view tasks
 - Edit existing tasks
 - Delete tasks
-- Filter tasks by date
 - State management using GetX
 
 <div align="center">
